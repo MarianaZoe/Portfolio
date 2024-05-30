@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mariana</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                   <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                   <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                   <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                   <li><a href="#curriculum" onclick="seleccionar()">CURRÍCULUM</a></li>
+                   <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                   <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+              </ul>
+          </nav>
+          <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+               <i class="fa-solid fa-bars"></i>
+           </div>
+       </header>
+    </div>
+        
+        <!-- SECCION INICIO -->
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="img/m1.jpg" alt="">
+                </div>
+                <h1>MARIANA NÚÑEZ</h1>
+                <h2>Técnica en Programación</h2>
+                <div class="redes">
+                    <a href="https://www.facebook.com/mariana.nunez.31/"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/f.emuna_creaciones?igsh=MTJmcGM2bjQwNWptNQ%3D%3D&utm_source=qr "><i class="fa-brands fa-instagram"></i></a>
+                    <a href="www.linkedin.com/in/mariana-nuñez-582141305"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCION SOBRE MI -->
+        <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <h2>Sobre Mi</h2>
+                <p><span>Hola, soy Mariana Núñez.</span> Este es mi portfolio, creado para mostrar mi trabajo como programadora. Estoy iniciando en el trabajo como freelance y creo que esta es la mejor manera de mostrar lo que puedo hacer. Así que te invito a recorrerlo.</p>
+
+                <div class="fila">
+                    <!-- datos personales -->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li>
+                                <strong>Cumpleaños</strong>
+                                22-04-1998
+                            </li>
+                            <li>
+                                <strong>Teléfono</strong>
+                                091063743
+                            </li>
+                            <li>
+                                <strong>Emai</strong>
+                                marianajimenanunez@gmail.com
+                            </li>
+                            <li>
+                                <strong>Dirección</strong>
+                                Atlántida - Canelones
+                            </li>
+                            <li>
+                                <strong>Cargo</strong>
+                                Freelance - Maestra
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- intereses -->
+                    <div class="col">
+                        <h1>Intereses</h1>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-chalkboard-user"></i>
+                                <span>ENSEÑAR</span>
+                              </div>
+                              <div class="interes">
+                                <i class="fa-solid fa-pen-nib"></i>
+                                <span>DISEÑO</span>
+                              </div>
+                              <div class="interes">
+                                <i class="fa-solid fa-person-walking"></i>
+                                <span>CAMINAR</span>
+                              </div>
+                              <div class="interes">
+                                <i class="fa-solid fa-utensils"></i>
+                                <span>COCINAR</span>
+                              </div>
+                              <div class="interes">
+                                <i class="fa-solid fa-computer"></i>
+                                <span>TIC</span>
+                              </div>
+                              <div class="interes">
+                                <i class="fa-solid fa-camera-retro"></i>
+                                <span>FOTOS</span>
+                              </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Descargar CV <a href="CamScanner 12-04-2024 19.05.pdf"><i class="fa-solid fa-download"></i> 
+                        <span class="overlay"></span>
+                    </button>
+                    </a>
+            </div>
+        </section>
+
+
+    <!-- SECCIÓN SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTM & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Photoshop</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Canva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Responsabilidad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRíCULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Currículum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Maestra de Educación Inicial y Primaria</h4>
+                        <span class="casa">IFD</span>
+                        <span class="fecha">2016-2019</span>
+                        <p>Enseñar es parte de mi, por eso decidí invocrarme en la enseñanza.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Técnica en Programación</h4>
+                        <span class="casa"> IADE</span>
+                        <span class="fecha">2024</span>
+                        <p>La tecnológía es parte fundamental de nuestras vidas, por eso decidí formarme y aprender más sobre cómo funcionan los programas y cómo ser parte de ellos desde cero.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Maestra de Educación Inicial y Primaria</h4>
+                        <span class="casa">ANEP</span>
+                        <span class="fecha">2020-2024</span>
+                        <p>Actualmente sigo trabajando como docente en una escuela pública.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Freelancer</h4>
+                        <span class="casa"> Freelance</span>
+                        <span class="fecha">2024</span>
+                        <p>He comenzado a trabajar como freelance, mostrando mis trabajos en las redes sociales y enviando propuestas a través de páginas específicas para freelancers.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCIÓN PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Portfolio</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/IC (2).png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Invitación</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/FC.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Tarjeta</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/R.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Invitación</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/F.png" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Frase</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SECCIÓN CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-secccion">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Tu nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar Mensaje<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/Ub.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                Uruguay, CanelOnes, Atlántida
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                Llama al: 091063743
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: marianajimenanunez@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+             <a href="#"><i class="fa-brands fa-instagram"></i></a>
+             <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+         </div>
+     </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
